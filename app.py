@@ -207,7 +207,7 @@ if predict_button:
             st.stop()
 
         # Load trained model
-        model_path = f"stock_models/{company}.pkl"
+        model_path = f"{company}.pkl"
 
         with open(model_path, "rb") as f:
             model = pickle.load(f)
