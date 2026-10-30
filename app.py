@@ -120,7 +120,7 @@ st.markdown("""
 
 
 # ---------------- LOAD DATA ----------------
-data_files = glob.glob("stock_data/*.csv")
+data_files = glob.glob("*.csv")
 model_files = glob.glob("*.pkl")
 
 model_companies = {
