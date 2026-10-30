@@ -121,7 +121,7 @@ st.markdown("""
 
 # ---------------- LOAD DATA ----------------
 data_files = glob.glob("stock_data/*.csv")
-model_files = glob.glob("stock_models/*.pkl")
+model_files = glob.glob("*.pkl")
 
 model_companies = {
     os.path.splitext(os.path.basename(f))[0]
